@@ -36,7 +36,7 @@ KP_liberation_preset = 0;
 2 = Killah Potatoes Gaming Community arsenal preset.
 3 = RHS USAF arsenal preset.
 4 = RHS USAF arsenal preset with ACE.
-5 = RHS USAF arsenal preset with ACE and ACRE.	
+5 = RHS USAF arsenal preset with ACE and ACRE.
 6 = 3cbBAF and RHS USAF arsenal preset. */
 KP_liberation_arsenal = 0;
 
@@ -50,7 +50,7 @@ KP_liberation_fuel_max = 45;
 
 /* - Gameplay constant settings.
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file.	*/
-GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
+GRLIB_save_key = "A3CN_LIBERATION_" + (toUpper worldName) + "_SAVEGAME_OFICIAL_ONLINE";
 
 KP_liberation_savegame_debug = false;																			// Enables displaying of the whole save array in the server log on each save
 
@@ -64,8 +64,8 @@ GRLIB_color_friendly = "ColorBLUFOR";																			// Friendly sector marke
 GRLIB_color_enemy = "ColorOPFOR";																				// Enemy sector marker color.
 GRLIB_color_enemy_bright = "ColorRED";																			// Enemy sector marker color (activated).
 
-GRLIB_fob_range = 125;																							// Build range around the main FOB building.
-GRLIB_halo_altitude = 2500;																						// Altitude in metres for the HALO jump.
+GRLIB_fob_range = 200;																							// Build range around the main FOB building.
+GRLIB_halo_altitude = 1500;																						// Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];																	// Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;																			// The percentage impact against enemy combat readiness for a successful FOB hunt.
 GRLIB_recycling_percentage = 0.5;																				// Percentage of resources you get back from recycling.
@@ -88,7 +88,7 @@ GRLIB_battlegroup_cap = 150							* GRLIB_unitcap;											// Cap for enemy ba
 GRLIB_patrol_cap = 150								* GRLIB_unitcap;											// Cap for enemy patrols.
 
 /* - Default arsenal blacklist method.
-Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.	
+Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.	*/
 blacklisted_from_arsenal = [
 	"B_Respawn_Sleeping_bag_blue_F",
