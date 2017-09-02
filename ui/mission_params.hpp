@@ -10,13 +10,13 @@ class Params
 		title = $STR_PARAMS_UNITCAP;
 		values[] = {0,1,2,3,4,5};
 		texts[] = {$STR_PARAMS_UNITCAP1,$STR_PARAMS_UNITCAP2,$STR_PARAMS_UNITCAP3,$STR_PARAMS_UNITCAP4,$STR_PARAMS_UNITCAP5,$STR_PARAMS_UNITCAP6};
-		default = 2;
+		default = 4;
 	};
 	class Difficulty {
 		title = $STR_PARAMS_DIFFICULTY;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { $STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8 };
-		default = 2;
+		default = 4;
 	};
 	class Aggressivity{
 		title = $STR_AGGRESSIVITY_PARAM;
@@ -58,7 +58,7 @@ class Params
 		title = $STR_PARAM_BLUFOR_DEFENDERS;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class Autodanger{
 		title = $STR_PARAM_AUTODANGER;
@@ -76,7 +76,7 @@ class Params
 		title = $STR_SHORTER_NIGHTS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Weather {
 		title = $STR_WEATHER_PARAM;
@@ -153,7 +153,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-		default = 0;
+		default = 2;
 		function = "bis_fnc_paramReviveUnconsciousStateMode";
 	};
 	class ReviveBleedOutDuration
@@ -238,7 +238,7 @@ class Params
 		title = $STR_HALO_PARAM;
 		values[] = {1,5,10,15,20,30,0};
 		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 20;
 	};
 	class Spacer3 {
 		title = "";
@@ -268,13 +268,13 @@ class Params
 		title = $STR_PARAMS_INTRO;
 		values[] = { 1, 0 };
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class DeploymentCinematic {
 		title = $STR_PARAMS_DEPLOYMENTCAMERA;
 		values[] = { 1, 0 };
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class Whitelist {
 		title = $STR_WHITELIST_PARAM;
