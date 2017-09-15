@@ -50,7 +50,7 @@ KP_liberation_fuel_max = 45;
 
 /* - Gameplay constant settings.
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file.	*/
-GRLIB_save_key = "A3CN_LIBERATION_" + (toUpper worldName) + "_SAVEGAME_OFICIAL_ONLINE";
+GRLIB_save_key = "A3CN_LIBERATION_" + (toUpper worldName) + "_SAVEGAME_BLACKOPS";
 
 KP_liberation_savegame_debug = false;																			// Enables displaying of the whole save array in the server log on each save
 
